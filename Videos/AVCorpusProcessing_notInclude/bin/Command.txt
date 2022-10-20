@@ -1,0 +1,10 @@
+3m
+
+ffmpeg -i overlay.mov -i main.mp4 -filter_complex  "[0:v]crop=iw/2:ih:0:0[left];  [0:v]crop=iw/2:ih:iw/2-74:0[right];  [left][right]vstack[stacked1]; [stacked1]scale=2048:2160[stacked2]; [stacked2]eq=saturation=0.8[stacked3]; [1:v][stacked3]overlay=950:0" output_mid.mp4
+
+
+Command for paper example
+
+ffmpeg -i overlay.mov -i main.mp4 -filter_complex  "[0:v]crop=iw/2:ih:0:0[left];  [0:v]crop=iw/2:ih:iw/2-74:0[right];  [left][right]vstack[stacked1]; [stacked1]scale=1536:1620[stacked2]; [stacked2]eq=saturation=0.8[stacked3]; [stacked3]scale=2048:2160[stacked4]; [1:v][stacked4]overlay=950:-40" papervid1.mp4
+
+ffmpeg -i overlay2.mov -i papervid1.mp4 -filter_complex  "[0:v]crop=iw/2:ih:0:0[left];  [0:v]crop=iw/2:ih:iw/2-74:0[right];  [left][right]vstack[stacked1]; [stacked1]scale=1536:1620[stacked2]; [stacked2]eq=saturation=0.8[stacked3]; [stacked3]scale=2048:2160[stacked4]; [1:v][stacked4]overlay=500:0[stacked5]; [stacked5]crop=iw:ih/2:0:0" papervid2.mp4
