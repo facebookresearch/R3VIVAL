@@ -26,7 +26,7 @@ This datset contains Spatial Room Impulse Responses (SRIR) and 360 stereoscopic 
 
 
 ## VARIABLE ACOUSTICS LAB
-<img src="/Images/Lab0Abs.jpg" alt="drawing" width="300"/> <img src="/Images/Lab50Abs.jpg" alt="drawing" width="300"/> <img src="/Images/Lab100Abs.jpg" alt="drawing" width="300"/>
+<img src="/Images/Lab0Abs.jpg" alt="drawing" width="250"/> <img src="/Images/Lab50Abs.jpg" alt="drawing" width="250"/> <img src="/Images/Lab100Abs.jpg" alt="drawing" width="250"/>
 
 - Shoebox room
 - Dimensions: 9.7 × 5.5 × 2.7 m (L × W × H) 
