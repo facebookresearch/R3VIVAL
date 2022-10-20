@@ -70,6 +70,8 @@ This datset contains Spatial Room Impulse Responses (SRIR) and 360 stereoscopic 
 
 - Combine the data with the Audiovisual Speech Corpus[^3] to generate synthetic multi-talker scenes
 
+![LabOverview](/Images/OverlayExample.png)
+
 ## Contributing
 
 See the [CONTRIBUTING](CONTRIBUTING.md) file for how to help out.
