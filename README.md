@@ -68,7 +68,7 @@ This datset contains Spatial Room Impulse Responses (SRIR) and 360 stereoscopic 
 
 - Generate video for a specific loudspeaker arrangement
 
-- Combine the data with the Audiovisual Speech Corpus[^3] to generate synthetic multi-talker scenes
+- Combine the data with the Audiovisual Speech Corpus[^3] to generate synthetic multi-talker scenes. Note that the link on the original publication is no longer available. A mirror source is provided in[^4]
 
 ![LabOverview](/Images/OverlayExample.png)
 
@@ -91,5 +91,6 @@ Sebastia V. Amengual (samengual@meta.com)
 [^1]: Amengual Garí, S. V., Arend, J. M., Calamia, P. T., & Robinson, P. W. (2021). Optimizations of the spatial decomposition method for binaural reproduction. Journal of the Audio Engineering Society, 68(12), 959-976. https://doi.org/10.17743/jaes.2020.0063
 [^2]: https://github.com/facebookresearch/BinauralSDM/
 [^3]: Kishline, L. R., Colburn, S. W., & Robinson, P. W. (2020). A multimedia speech corpus for audio visual research in virtual reality (L). The Journal of the Acoustical Society of America, 148(2), 492-495. https://doi.org/10.1121/10.0001670
+[^4]: https://drive.google.com/drive/u/1/folders/1E_sC5SfjZCJOnkLkIN7MJ38-bwkAHQkY
 
 
